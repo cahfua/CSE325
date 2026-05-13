@@ -1,0 +1,14 @@
+C:\Users\celes\Desktop\Term 3\CSE325\W01\SalesFilesApp\bin\Debug\net8.0\SalesFilesApp.exe
+C:\Users\celes\Desktop\Term 3\CSE325\W01\SalesFilesApp\bin\Debug\net8.0\SalesFilesApp.deps.json
+C:\Users\celes\Desktop\Term 3\CSE325\W01\SalesFilesApp\bin\Debug\net8.0\SalesFilesApp.runtimeconfig.json
+C:\Users\celes\Desktop\Term 3\CSE325\W01\SalesFilesApp\bin\Debug\net8.0\SalesFilesApp.dll
+C:\Users\celes\Desktop\Term 3\CSE325\W01\SalesFilesApp\bin\Debug\net8.0\SalesFilesApp.pdb
+C:\Users\celes\Desktop\Term 3\CSE325\W01\SalesFilesApp\obj\Debug\net8.0\SalesFilesApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\celes\Desktop\Term 3\CSE325\W01\SalesFilesApp\obj\Debug\net8.0\SalesFilesApp.AssemblyInfoInputs.cache
+C:\Users\celes\Desktop\Term 3\CSE325\W01\SalesFilesApp\obj\Debug\net8.0\SalesFilesApp.AssemblyInfo.cs
+C:\Users\celes\Desktop\Term 3\CSE325\W01\SalesFilesApp\obj\Debug\net8.0\SalesFilesApp.csproj.CoreCompileInputs.cache
+C:\Users\celes\Desktop\Term 3\CSE325\W01\SalesFilesApp\obj\Debug\net8.0\SalesFilesApp.dll
+C:\Users\celes\Desktop\Term 3\CSE325\W01\SalesFilesApp\obj\Debug\net8.0\refint\SalesFilesApp.dll
+C:\Users\celes\Desktop\Term 3\CSE325\W01\SalesFilesApp\obj\Debug\net8.0\SalesFilesApp.pdb
+C:\Users\celes\Desktop\Term 3\CSE325\W01\SalesFilesApp\obj\Debug\net8.0\SalesFilesApp.genruntimeconfig.cache
+C:\Users\celes\Desktop\Term 3\CSE325\W01\SalesFilesApp\obj\Debug\net8.0\ref\SalesFilesApp.dll
