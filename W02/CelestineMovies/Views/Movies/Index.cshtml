@@ -1,0 +1,68 @@
+@model CelestineMovies.Models.MovieGenreViewModel
+
+@{
+    ViewData["Title"] = "My Favorite Movies";
+}
+
+<h1>My Favorite Movies</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<form asp-controller="Movies" asp-action="Index" method="get">
+    <p>
+        Genre:
+        <select asp-for="MovieGenre" asp-items="Model.Genres">
+            <option value="">All</option>
+        </select>
+
+        Title:
+        <input type="text" asp-for="SearchString" />
+
+        Year or Newer:
+        <input type="number" asp-for="SearchYear" />
+
+        <input type="submit" value="Filter" class="btn btn-secondary" />
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Release Date</th>
+            <th>Genre</th>
+            <th>Price</th>
+            <th>Rating</th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @if (Model.Movies != null && Model.Movies.Any())
+        {
+            foreach (var item in Model.Movies)
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@item.ReleaseDate.ToShortDateString()</td>
+                    <td>@item.Genre</td>
+                    <td>@item.Price</td>
+                    <td>@item.Rating</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="6">No movies found.</td>
+            </tr>
+        }
+    </tbody>
+</table>
