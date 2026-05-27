@@ -1,0 +1,27 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+        </div>
+
+        <article class="content px-4" style="padding-bottom: 80px;">
+            @Body
+        </article>
+
+        <footer style="position: fixed; bottom: 0; left: 250px; right: 0; background: #f7f7f7; border-top: 1px solid #d6d5d5; padding: 12px 24px; z-index: 10;">
+            Celestine Ahfua - Samoa
+        </footer>
+    </main>
+</div>
+
+<div id="blazor-error-ui" data-nosnippet>
+    An unhandled error has occurred.
+    <a href="." class="reload">Reload</a>
+    <span class="dismiss">🗙</span>
+</div>
